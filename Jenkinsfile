@@ -14,6 +14,7 @@ pipeline {
                     
                     // Use Maven to compile the project
                     sh 'mvn clean install'
+                    echo "it's a building for the Java project"
                 }
             }
         }
